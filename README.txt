@@ -5,7 +5,7 @@ Donate link: http://1fix.io/
 Tags: media library, media, attachment
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.5.4
+Stable tag: 0.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ Search through all fields in Media Library.
 
 This plugin is made for:
 
-* Search through all fields in Media Library, including: title, caption, alternative text and description.
+* Search through all fields in Media Library, including: ID, title, caption, alternative text and description.
 * Search Taxonomies for Media, include the name, slug and description fields.
 * Search media file name.
 * Use shortcode `[mse-search-form]` to insert a media search form in posts and template files. It will search for media by all fields mentioned above.
@@ -64,6 +64,10 @@ Please add the following code to the `functions.php` in your theme:
 2. Demo search on the Insert Media - Media Library screen.
 
 == Changelog ==
+
+= 0.6.0 =
+* Add ID to search fields.
+* Modify the clauses with `posts_clauses` filter.
 
 = 0.5.4 =
 * Add filter `mse_get_attachment_url` to modify the attachment URLs in the media search results.
